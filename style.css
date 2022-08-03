@@ -1,0 +1,361 @@
+    header {
+        display: flex;
+        flex-direction: column;
+        min-height: 30vh;
+        background-image: url(./images/concierto.jpg);
+        opacity: 0.7;
+    }
+    
+    .box-navbar {
+        height: fit-content;
+        padding: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(33, 131, 128, 0.721);
+    }
+    
+    .logo {
+        max-height: 50%;
+    }
+    
+    .logo img {
+        max-height: 10vh;
+    }
+    
+    li a {
+        color: #d90367 !important;
+        height: 100%;
+        font-family: sans-serif;
+        font-size: medium;
+        font-weight: bolder;
+    }
+    
+    li a:hover {
+        color: white !important;
+    }
+    /*------------------------------------------------------- ACA TERMINA EL HEADER */
+    
+    .title-navbar {
+        height: 15vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cajaflecha1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 12vh;
+        width: 20%;
+    }
+    
+    .cajaflecha2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 12vh;
+        width: 20%;
+    }
+    
+    .flecha {
+        width: 80%;
+        height: 10vh;
+    }
+    
+    .titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-height: 12vh;
+        font-size: 5.5vh;
+        letter-spacing: 0.5rem;
+        color: white;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+    /*--------------------------------------------------------- ACA TERMINA EL TITULO Y FLECHAS*/
+    
+    main {
+        background-color: rgba(33, 131, 128, 0.721);
+    }
+    
+    .main-form {
+        background-color: #d90368;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .form-check {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 1rem;
+        font-family: sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .form-check input {
+        background-color: rgb(33, 131, 128);
+        border-radius: 8em !important;
+        margin-top: 0 !important;
+    }
+    
+    .form-check label {
+        padding-left: .3rem;
+    }
+    
+    .check {
+        flex-wrap: wrap;
+    }
+    
+    .search {
+        margin: .3rem !important;
+        height: 2rem;
+        margin-right: 2rem;
+        margin-left: 3rem;
+        font-family: sans-serif;
+    }
+    
+    #main-cards {
+        width: 100%;
+        padding: 3rem;
+        gap: 3rem;
+        font-family: sans-serif;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        width: 18rem;
+        min-height: 32rem;
+    }
+    
+    .card-img-top {
+        min-height: 50%;
+        border: .5rem solid white;
+        object-fit: cover;
+    }
+    
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #d90367dc;
+        border: .5rem solid white;
+    }
+    
+    .card-title {
+        color: white;
+        font-size: x-large;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .card-text {
+        font-size: medium;
+        font-weight: bold;
+        min-height: 15vh;
+        padding-top: 1rem;
+    }
+    
+    .priceyBtn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+    
+    .price {
+        margin: 0 !important;
+        font-weight: bold;
+    }
+    
+    .btn {
+        background-color: rgba(33, 131, 128, 0.721) !important;
+        color: black;
+        border-radius: 2em !important;
+        font-size: 12px !important;
+    }
+    
+    #mensajeUps {
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        height: 11rem;
+        padding-top: 5rem;
+    }
+    /*--------------------------------------------------------------ACA TERMINAN LAS CARDS*/
+    
+    .form-box {
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact {
+        flex-direction: column;
+        background-color: #d90367;
+        padding: 2rem 1rem 2rem 1rem;
+        min-width: 60%;
+        border: 2px solid #ffbc42ff;
+        opacity: 0.9;
+    }
+    
+    .contact label {
+        font-family: sans-serif;
+        padding-bottom: 0.5rem;
+    }
+    
+    .contact input {
+        min-width: 100%;
+    }
+    
+    .contact textarea {
+        min-width: 100%;
+        min-height: 50%;
+        resize: none;
+    }
+    
+    .submit {
+        font-family: sans-serif;
+        background-color: rgba(0, 0, 0, 0.591);
+        margin-top: 0.5rem;
+        color: white;
+        border: none;
+        letter-spacing: 0.2rem;
+    }
+    /*----------------------------------------------------------------ACA TERMINA EL FORM DE CONTACT*/
+    
+    .box-main {
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    
+    .table tr,
+    td {
+        border: 2px solid black;
+        font-family: sans-serif;
+        font-size: small;
+    }
+    
+    th {
+        font-weight: bolder;
+        font-size: medium;
+    }
+    
+    .table-title {
+        background-color: #d90367;
+        text-align: center;
+    }
+    
+    .table-subtitle {
+        font-weight: bolder;
+        font-size: small;
+    }
+    
+    .subtitle {
+        background-color: rgba(255, 255, 255, 0.514);
+    }
+    
+    .data-table {
+        background-color: rgba(33, 131, 128, 0.721);
+    }
+    
+    td {
+        width: 33.33%;
+        border: 1px solid black !important;
+        text-align: center;
+    }
+    /*----------------------------------------------------------------------ACA TERMINA LA TABLA DE STATS*/
+    
+    .details {
+        min-height: 58vh;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cardDetails {
+        width: 100vw;
+        min-height: 5vh;
+    }
+    
+    .img-fluid {
+        width: 100%;
+        height: 19.3rem !important;
+        border: 0.5rem solid white;
+        object-fit: cover;
+    }
+    
+    #details-body {
+        height: 19.3rem !important;
+    }
+    
+    .titleDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: .5rem;
+    }
+    
+    #detailstitle {
+        color: white;
+        font-size: x-large;
+        font-family: sans-serif;
+        margin-bottom: 1rem !important;
+        text-align: center;
+    }
+    
+    .card-text-details {
+        text-align: center;
+        margin: 5px;
+        font-weight: bold;
+    }
+    
+    .card-text-details-descrption {
+        font-size: small;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    /*----------------------------------------------------------------- ACA TERMINAN LAS CARDS DE DETAILS*/
+    
+    footer {
+        background-color: #d90367;
+        opacity: 0.9;
+        max-height: 10vh;
+        padding: 2rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-socialmedia {
+        max-width: 40%;
+        max-height: 8vh;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .footer-cohort {
+        max-width: 40%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .footer-img {
+        max-width: 40%;
+        min-height: 10vh;
+    }
+    
+    .footer-cohort h1 {
+        font-family: sans-serif;
+        font-size: small;
+        color: black;
+        text-align: center;
+    }
+    /*--------------------------------------------------------------ACA TERMINA EL FOOTER*/
